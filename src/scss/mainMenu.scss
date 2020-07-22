@@ -1,0 +1,93 @@
+.mainMenu {
+  background-color: #f8f8f8;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: -400px;
+  width: 100%;
+  min-width: 320px;
+  max-width: 360px;
+  min-height: 650px;
+  height: 100vh;
+  padding: 15px;
+  padding-bottom: 50px;
+  overflow: auto;
+  transition-duration: 0.5s;
+
+  .mainMenu__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mainMenu__icons {
+    margin: 0 -7px;
+  }
+  .mainMenu__icons a:hover,
+  .mainMenu__icons a:focus {
+    opacity: 0.5;
+    outline: none;
+  }
+  .mainMenu__icon {
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    padding: 7px;
+  }
+  .mainMenu__logo {
+    margin: 0 15px;
+    width: 100px;
+    height: 54px;
+  }
+  .mainMenu__icon_flex_grow_1 {
+    text-align: right;
+    flex: 1;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  ul a {
+    position: relative;
+    display: block;
+    padding: 16px 0;
+  }
+  ul a:hover,
+  ul a:focus,
+  .mainMenu__footer a:focus,
+  .mainMenu__footer a:hover {
+    text-decoration: none;
+    color: #7e7e82;
+    outline: none;
+  }
+  .mainMenu__email {
+    padding: 5px 0;
+  }
+  .mainMenu__phoneNumber {
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .mainMenu__footer {
+    position: absolute;
+    bottom: 15px;
+  }
+  @media (max-height: 750px) {
+    .mainMenu__footer {
+      position: static;
+    }
+  }
+  @media (min-width: 361px) {
+    box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2),
+      -2px 0px 4px rgba(69, 79, 126, 0.02);
+    width: 360px;
+  }
+  @media (min-width: 1440px) {
+    position: static;
+    box-shadow: none;
+    background-color: white;
+    z-index: 5;
+    .mainMenu__fullHd_display_none {
+      display: none;
+    }
+  }
+}

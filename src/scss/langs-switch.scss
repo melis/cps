@@ -1,0 +1,10 @@
+.langs-switch {
+  display: flex;
+  margin: 0 -5px;
+  .langs-switch__item {
+    padding: 5px;
+  }
+  .langs-switch__item_active {
+    opacity: 0.5;
+  }
+}

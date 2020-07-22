@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "TT Lakes";
+
+  src: url("../fonts/TTLakes-Medium.woff2") format("woff2"),
+    url("../fonts/TTLakes-Medium.woff") format("woff"),
+    url("../fonts/TTLakes-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  font-family: "TT Lakes";
+  margin: 0;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:focus {
+    outline: none;
+  }
+  .container {
+    margin: auto;
+  }
+  .swiper-slide {
+    width: auto;
+  }
+  img {
+    display: inline-block;
+  }
+  .brands,
+  .kinds,
+  .services,
+  .mainContent,
+  .price {
+    background-color: #f8f8f8;
+  }
+  .blinds {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    z-index: 9;
+    top: 0;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    cursor: pointer;
+  }
+  @media (min-width: 769px) {
+    .swiper-pagination {
+      display: none;
+    }
+  }
+  @media (min-width: 1440px) {
+    .container {
+      max-width: 1440px;
+      display: flex;
+      width: 1440px;
+      margin: auto;
+    }
+    .mainContent {
+      min-width: 1120px;
+    }
+  }
+}

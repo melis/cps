@@ -1,0 +1,19 @@
+.titles {
+  line-height: 50px;
+  height: 50px;
+  padding: 0 10px;
+  position: relative;
+  font-size: 2em;
+  font-weight: bold;
+  &::after {
+    position: absolute;
+    content: "";
+    height: 36px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -15px;
+    border: 2px solid #58f6da;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}

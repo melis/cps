@@ -1,0 +1,48 @@
+.services {
+  .services__menu {
+    padding: 0 15px;
+    overflow: auto;
+  }
+  .services__menu a {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+  }
+  .services__menu a:hover,
+  .services__menu a:focus {
+    background-color: white;
+    border: 1px solid #58f6da;
+  }
+
+  .services__menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 1300px;
+  }
+  .services__menu li {
+    display: inline-block;
+  }
+
+  .servises__subHeader {
+    padding: 15px;
+  }
+
+  @media (min-width: 1440px) {
+    min-width: 768px;
+    max-width: 1120px;
+    margin: 0 auto;
+
+    .services__menu {
+      overflow: visible;
+    }
+    .servises_desctop-none {
+      display: none;
+    }
+    .services__menu ul {
+      width: auto;
+      min-width: auto;
+    }
+  }
+}

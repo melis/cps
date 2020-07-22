@@ -1,0 +1,26 @@
+.content {
+  padding: 15px;
+  .content__text {
+    margin-bottom: 20px;
+  }
+  .content__img img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .content__expand a:focus,
+  .content__expand a:hover {
+    outline: none;
+    color: gray;
+  }
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    & > div {
+      width: 47%;
+    }
+
+    .content__text {
+      margin-bottom: 0;
+    }
+  }
+}

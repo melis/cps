@@ -1,0 +1,18 @@
+.headers {
+  border-top: 1px solid #41f6d6;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  padding: 15px;
+  height: 56px;
+  background: linear-gradient(45deg, #f8f8f8 0%, #ffffff 98.61%);
+  color: #7e7e82;
+
+  @media (min-width: 768px) {
+    background: linear-gradient(90deg, #f8f8f8 1.39%, #ffffff 100%);
+    height: 56px;
+  }
+}

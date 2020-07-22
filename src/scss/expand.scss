@@ -1,0 +1,23 @@
+.expand {
+  display: none;
+  position: relative;
+  margin: 15px 35px;
+  transition-duration: 0.3s;
+  outline: none;
+  text-decoration: none;
+
+  @media (min-width: 769px) {
+    display: inline-block;
+    img {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -25px;
+    }
+    &:hover,
+    &:focus {
+      transform: scale(1.1) translateX(10px);
+      color: #ff7aa2;
+    }
+  }
+}

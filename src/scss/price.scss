@@ -1,0 +1,44 @@
+.price {
+  .price__info {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .price__table {
+    font-size: 14px;
+    padding: 0 25px;
+    margin: 0 15px;
+    background: #ffffff;
+    border-radius: 6px;
+    min-width: 800px;
+    transform: none !important;
+  }
+  .price__title {
+    display: none;
+  }
+
+  @media (min-width: 769px) {
+    .price__info {
+      width: 60%;
+    }
+    .price__title {
+      min-width: 830px;
+      display: flex;
+      color: #7e7e82;
+      padding: 15px 40px;
+    }
+    .price__titles {
+      display: none;
+    }
+    .price__width_50 {
+      width: 50%;
+    }
+    .price__width_20 {
+      width: 20%;
+    }
+    .price__button {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}

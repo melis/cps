@@ -1,0 +1,15 @@
+.slides {
+  padding: 15px;
+  @media (min-width: 769px) {
+    max-width: 1120px;
+    transform: none !important;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 820px;
+    margin: 0 auto;
+  }
+  @media (min-width: 1121px) {
+    width: auto;
+  }
+}

@@ -1,0 +1,22 @@
+.menu {
+  .menu__item_active {
+    position: relative;
+  }
+  .menu__item_active a {
+    opacity: 0.5;
+  }
+
+  .menu__item_active:after {
+    position: absolute;
+    left: -15px;
+    height: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+
+    border-right: 4px solid;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-color: #41f6d7;
+  }
+}
