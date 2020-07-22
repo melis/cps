@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>CPS</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/svg">
+  <link href="style.css" rel="stylesheet"></head>
+  <body>
+    <div class="container">
+      <div class="mainMenu" id="mainMenu">
+        <div class="mainMenu__header mainMenu__icons icons">
+          <div class="mainMenu__icon icons__icon mainMenu__fullHd_display_none" id="mainMenu_off">
+            <a href="#"><img src="./img/close.svg" alt=""></a>
+          </div>
+          <div>
+            <a href=""><img class="mainMenu__logo" src="./img/logo.svg" alt=""></a>
+          </div>
+          <div class="mainMenu__icon mainMenu__icon_flex_grow_1">
+            <a href=""><img src="./img/search.svg" alt=""></a>
+          </div>
+        </div>
+
+        <ul class="mainMenu__menu menu">
+          <li class="menu__item menu__item_active">
+            <a href="#">Ремонт техники</a>
+          </li>
+          <li class="menu__item"><a href="#">Услуги с ервисы</a></li>
+          <li class="menu__item"><a href="#">Коорпоративным клиентам</a></li>
+          <li class="menu__item"><a href="#">Продавцам техники</a></li>
+          <li class="menu__item"><a href="#">Партнерам</a></li>
+          <li class="menu__item"><a href="#">Производителем</a></li>
+          <li class="menu__item"><a href="#">Наши сервисы</a></li>
+          <li class="menu__item"><a href="#">Контакты</a></li>
+        </ul>
+
+        <div class="mainMenu__footer">
+          <div class="mainMenu__icons icons">
+            <div class="mainMenu__icon icons__icon callBack">
+              <a href="#"><img src="./img/ic_call.svg" alt=""></a>
+            </div>
+            <div class="mainMenu__icon icons__icon feedBack">
+              <a href="#"><img src="./img/ic_chat.svg" alt=""></a>
+            </div>
+            <div class="mainMenu__icon icons__icon">
+              <a href="#"><img src="./img/ic_prof.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="mainMenu__email">
+            <a href="mailto:mail@cps.com">mail@cps.com</a>
+          </div>
+          <div class="mainMenu__phoneNumber">
+            <a href="tel:8 800 980 8900">8 800 980 8900</a>
+          </div>
+
+          <ul class="langs-switch">
+            <li class="langs-switch__item langs-switch__item_active">
+              <a href="#">RU</a>
+            </li>
+            <li class="langs-switch__item"><a href="#">EN</a></li>
+            <li class="langs-switch__item"><a href="#">CH</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mainContent">
+        <div class="services">
+          <header class="servises__header header">
+            <div class="titles header__text header_desctop">
+              Услуги и сервисы
+            </div>
+            <div class="header__block header_desctop-none">
+              <div class="icons">
+                <a href="#">
+                  <div class="icons__icon" id="mainMenu_on">
+                    <img src="./img/burger.svg" alt="">
+                  </div>
+                </a>
+              </div>
+
+              <div class="header__delimiter header_tablet"></div>
+
+              <div class="header__logo">
+                <a href="">
+                  <img src="./img/logo.svg" alt="">
+                </a>
+              </div>
+            </div>
+
+            <div class="header__block">
+              <div class="icons header_tablet">
+                <a href="#">
+                  <div class="icons__icon">
+                    <img src="./img/ic_prof.svg" alt="">
+                  </div>
+                </a>
+                <a href="#" class="callBack">
+                  <div class="header__icon icons__icon">
+                    <img src="./img/ic_call.svg" alt="">
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="header__icon icons__icon feedBack">
+                    <img src="./img/ic_chat.svg" alt="">
+                  </div>
+                </a>
+              </div>
+
+              <div class="header__delimiter header_desctop-none"></div>
+
+              <div class="icons">
+                <a href="#">
+                  <div class="header__text header_desctop">Оставить заявку</div>
+                  <div class="icons__icon">
+                    <img src="./img/rep.svg" alt="">
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="header__text header_desctop">Статус ремонта</div>
+                  <div class="icons__icon">
+                    <img src="./img/chekstatus.svg" alt="">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </header>
+          <div class="servises__subHeader servises_desctop-none">
+            <div class="titles">Услуги и сервисы</div>
+          </div>
+
+          <nav class="services__menu">
+            <ul>
+              <li><a href="#">Ремонтируемые бренды</a></li>
+              <li><a href="#"> Ремонтируемые устройства</a></li>
+              <li><a href="#"> Цены на услуги</a></li>
+              <li><a href="#"> Адреса сервисных центров</a></li>
+              <li><a href="#"> Специальные цены</a></li>
+              <li><a href="#"> Отзывы</a></li>
+            </ul>
+          </nav>
+          <div class="services__content content">
+            <div class="content__text">
+              <p id="contText">
+                Мы являемся авторизованным сервисным центром по ремонту техники
+                Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+                официальной гарантией производителя.
+              </p>
+
+              <a href="" class="showMore" id="contExpand">
+                <img id="contExpand__img" src="./img/logo_brands/expand_more.svg" alt=""><span id="contExpand__span">Показать еще</span>
+              </a>
+            </div>
+            <div class="content__img">
+              <img class="services_content__img" src="./img/2.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="brands" id="brands">
+          <div class="headers">
+            <div class="headers__title">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</div>
+          </div>
+
+          <div class="swiper-container">
+            <div class="swiper-wrapper slides" id="brandsSlides"></div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <a href="" class="expand" id="brands__expand">
+            <img src="./img/logo_brands/expand_more.svg" alt="" id="brands__expand-img "><span id="brands__expand-span">Показать еще</span>
+          </a>
+        </div>
+
+        <div class="kinds">
+          <div class="headers">
+            <div class="headers__title">РЕМОНТ РАЗЛИЧНЫХ видов ТЕХНИКИ</div>
+          </div>
+          <div class="swiper-container">
+            <div class="swiper-wrapper slides" id="kindSlides">
+              <div class="swiper-slide kinds-box">
+                <div class="kinds-Inbox">
+                  Ремонт ПК
+                  <a href="#" class="kinds__go"><img src="./img/logo_brands/go.svg" alt=""></a>
+                </div>
+              </div>
+              <div class="swiper-slide kinds-box">
+                <div class="kinds-Inbox">
+                  Ремонт ноутбуков 1
+                  <a href="#" class="kinds__go"><img src="./img/logo_brands/go.svg" alt=""></a>
+                </div>
+              </div>
+              <div class="swiper-slide kinds-box">
+                <div class="kinds-Inbox">
+                  Ремонт планшетов2
+                  <a href="#" class="kinds__go"><img src="./img/logo_brands/go.svg" alt=""></a>
+                </div>
+              </div>
+              <div class="swiper-slide kinds-box">
+                <div class="kinds-Inbox">
+                  Ремонт телефонов
+                  <a href="#" class="kinds__go"><img src="./img/logo_brands/go.svg" alt=""></a>
+                </div>
+              </div>
+              <div class="swiper-slide kinds-box">
+                <div class="kinds-Inbox">
+                  Ремонт смарт часов
+                  <a href="#" class="kinds__go"><img src="./img/logo_brands/go.svg" alt=""></a>
+                </div>
+              </div>
+              <div class="swiper-slide kinds-box">
+                <div class="kinds-Inbox">
+                  Ремонт выфввыыфв
+                  <a href="#" class="kinds__go"><img src="./img/logo_brands/go.svg" alt=""></a>
+                </div>
+              </div>
+              <div class="swiper-slide kinds-box">
+                <div class="kinds-Inbox">
+                  Ремонт выфввыыфв
+                  <a href="#" class="kinds__go"><img src="./img/logo_brands/go.svg" alt=""></a>
+                </div>
+              </div>
+              <div class="swiper-slide kinds-box">
+                <div class="kinds-Inbox">
+                  Ремонт выфввыыфв
+                  <a href="#" class="kinds__go"><img src="./img/logo_brands/go.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+          <a href="" class="expand" id="kinds__expand">
+            <img src="./img/logo_brands/expand_more.svg" alt="" id="kinds__expand-img "><span id="kinds__expand-span">Показать еще</span>
+          </a>
+        </div>
+
+        <div class="price">
+          <div class="headers">
+            <div class="headers__title">цены на услуги</div>
+          </div>
+          <div class="swiper-container priceContainer">
+            <div class="price__title">
+              <div class="price__width_50">Ремонтные услуги</div>
+              <div class="price__width_20">Цена</div>
+              <div class="price__width_20">Срок</div>
+            </div>
+            <div class="swiper-wrapper slides" id="priceSlides"></div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="price__info">
+            Все цены указаны с учетом НДС. Стоимость ремонта указана на
+            единичную услугу. Для получения комерческого предложения на
+            постоянное обслужение, оставьте заявку
+          </div>
+          <a href="" class="showMore"><div>Получить комерческое предложение</div>
+            <img src="./img/link.svg" alt=""></a>
+        </div>
+        <div class="footer">
+          <div class="footer__item">
+            2019 CPS <br>
+            Разработано командой Apesong
+          </div>
+          <div class="footer__item">Политика конфиденциальности</div>
+          <div class="footer__item">
+            Информация размещенная на данной странице, не является офертой
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blinds"></div>
+    <div class="modal modal-call">
+      <div class="icons">
+        <div class="icons__icon">
+          <a href="#" class="modal__close"><img src="./img/close.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="sub__header">
+        <div class="titles modal__titles" style="font-size: 24px;">
+          Заказать звонок
+        </div>
+      </div>
+
+      <input type="text" placeholder="Телефон" class="modal__input">
+      <p>
+        Нажимая "отправить", вы даете согласие на
+        <span>обработку персональных данных</span> и соглашаетесь с нашей
+        <span>политикой конфиденциальности</span>
+      </p>
+      <div class="modal__img">
+        <a href=""><img src="./img/send.svg" alt=""></a>
+      </div>
+    </div>
+    <div class="modal modal-feedback">
+      <div class="icons">
+        <div class="icons__icon">
+          <a href="#" class="modal__close"><img src="./img/close.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="sub__header">
+        <div class="titles modal__titles" style="font-size: 24px;">
+          Обратная связь
+        </div>
+      </div>
+      <input type="text" placeholder="Имя" class="modal__input">
+      <input type="text" placeholder="Телефон" class="modal__input">
+      <input type="email" placeholder="Электронная почта" class="modal__input">
+      <textarea name="" id="" cols="30" rows="30" class="modal__input" placeholder="Сообщение" style="height: 100px;"></textarea>
+      <p>
+        Нажимая "отправить", вы даете согласие на
+        <span>обработку персональных данных</span> и соглашаетесь с нашей
+        <span>политикой конфиденциальности</span>
+      </p>
+      <div class="modal__img">
+        <a href=""><img src="./img/send.svg" alt=""></a>
+      </div>
+    </div>
+  <script type="text/javascript" src="./js/bundle.js"></script></body>
+</html>
